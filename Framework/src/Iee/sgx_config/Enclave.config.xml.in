@@ -1,0 +1,11 @@
+<EnclaveConfiguration>
+  <ProdID>0</ProdID>
+  <ISVSVN>0</ISVSVN>
+  <StackMaxSize>${SGX_CONFIG_STACK_SIZE}</StackMaxSize>
+  <HeapMaxSize>${SGX_CONFIG_HEAP_SIZE}</HeapMaxSize>
+  <TCSNum>10</TCSNum>
+  <TCSPolicy>1</TCSPolicy>
+  <DisableDebug>0</DisableDebug>
+  <MiscSelect>0</MiscSelect>
+  <MiscMask>0xFFFFFFFF</MiscMask>
+</EnclaveConfiguration>
